@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" stylesheets="@PassengerHomePage.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PassengerHomePage">
+
+    <!-- Header Section -->
+    <HBox styleClass="header" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0">
+        <Label fx:id="welcomeLabel" styleClass="welcome-text" />
+        <Region HBox.hgrow="ALWAYS" />
+
+        <!-- Notification Bell Icon -->
+        <Button fx:id="notification" onAction="#handleNotification" styleClass="icon-button" text="🔔" prefWidth="40" />
+
+        <Button fx:id="logoutButton" onAction="#handleLogout" styleClass="logout-btn" text="Logout" />
+    </HBox>
+
+    <!-- Profile Section -->
+    <VBox layoutX="246.0" layoutY="78.0" prefHeight="163.0" prefWidth="279.0" spacing="10" styleClass="profile-section">
+        <Label styleClass="section-title" text="Your Profile" />
+        <HBox alignment="CENTER_LEFT" spacing="10">
+            <Label styleClass="profile-label" text="Name:" />
+            <Label fx:id="nameLabel" styleClass="profile-value" />
+        </HBox>
+        <HBox alignment="CENTER_LEFT" spacing="10">
+            <Label styleClass="profile-label" text="Email:" />
+            <Label fx:id="emailLabel" styleClass="profile-value" />
+        </HBox>
+        <Button fx:id="changeCredentialsButton" onAction="#handleChangeCredentials" styleClass="change-credentials-btn" text="Change Password" />
+    </VBox>
+
+    <!-- Main Actions -->
+    <VBox layoutX="276.0" layoutY="290.0" prefHeight="0.0" prefWidth="205.0" spacing="20" styleClass="actions-section">
+        <Button fx:id="selectLocationButton" onAction="#handleSelectLocation" prefWidth="200" styleClass="action-btn" text="Select Location" />
+        <Button fx:id="reportIssueButton" onAction="#handleReportIssue" prefWidth="200" styleClass="action-btn" text="Report Issue" />
+    </VBox>
+
+    <!-- Footer -->
+    <Label fx:id="statusLabel" styleClass="status-label" AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="20" />
+</AnchorPane>

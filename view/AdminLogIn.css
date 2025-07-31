@@ -1,0 +1,56 @@
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom right, #34495e, #2c3e50);
+}
+
+.welcome-label {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ecf0f1;
+    -fx-padding: 0 0 10 0;
+}
+
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: semi-bold;
+    -fx-text-fill: #bdc3c7;
+    -fx-padding: 0 0 20 0;
+}
+
+.input-field {
+    -fx-background-color: #2980b9;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #a0b9d8;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 8 12 8 12;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+.input-field:focused {
+    -fx-border-color: #3498db;
+    -fx-border-width: 2;
+}
+
+.main-button {
+    -fx-background-color: linear-gradient(to right, #3498db, #2980b9);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0.3, 0, 3);
+}
+
+.main-button:hover {
+    -fx-background-color: linear-gradient(to right, #2980b9, #2471a3);
+    -fx-text-fill: #f1c40f;
+}
+
+.forgot-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #f1c40f;
+    -fx-underline: true;
+    -fx-cursor: hand;
+}

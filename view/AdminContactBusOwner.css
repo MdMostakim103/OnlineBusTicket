@@ -1,0 +1,53 @@
+.anchor-pane {
+    -fx-background-color: #d0f0fd;
+}
+
+#backButton {
+    -fx-background-color: #ef5350; /* Red */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 5 15;
+    -fx-border-color: #c62828;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+
+
+#submitButton {
+    -fx-background-color: #43a047; /* Green */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 5 15;
+    -fx-border-color: #2e7d32;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+
+
+#busIdTextField {
+    -fx-background-radius: 6;
+    -fx-border-color: #29b6f6;
+    -fx-border-width: 1;
+    -fx-padding: 4;
+    -fx-font-size: 14px;
+    -fx-background-color: white;
+}
+
+
+#reportTextField {
+    -fx-background-radius: 6;
+    -fx-border-color: #29b6f6;
+    -fx-border-width: 1;
+    -fx-padding: 6;
+    -fx-font-size: 14px;
+    -fx-background-color: white;
+}
+
+
+#passengerLabel {
+    -fx-text-fill: #004d40;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}

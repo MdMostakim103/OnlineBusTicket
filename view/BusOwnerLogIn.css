@@ -1,0 +1,29 @@
+.button:hover {
+    -fx-background-color: #45a049;
+    -fx-text-fill:#000000           /* Darker green on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #3e8e41; /* Even darker when pressed */
+}
+.clickable-label {
+    -fx-text-fill: #000000;
+    -fx-cursor: hand;
+    -fx-underline: true;
+}
+#invalidInfoText{
+    -fx-font-color: red;
+}
+
+.clickable-label:hover {
+    -fx-text-fill: #45a049;
+}
+.label{
+    -fx-font-family: "Lucida Handwriting";
+}
+.button{
+    -fx-font-family: "Lucida Handwriting";
+}
+#vBox{
+    -fx-background-color: #436be3;
+}

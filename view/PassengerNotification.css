@@ -1,0 +1,67 @@
+.anchor-pane {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-padding: 20;
+}
+
+/* Style for all buttons */
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+/* Specific button overrides */
+#backButton {
+    -fx-font-size: 12px;
+    -fx-background-color: #6c757d;
+}
+
+#backButton:hover {
+    -fx-background-color: #495057;
+}
+
+#contactAcminButton {
+    -fx-background-color: #28a745;
+}
+
+#contactAcminButton:hover {
+    -fx-background-color: #218838;
+}
+
+/* Label title */
+.label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* Text area */
+.text-area {
+    -fx-font-size: 14px;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-color: #ced4da;
+    -fx-focus-color: #007bff;
+    -fx-faint-focus-color: transparent;
+    -fx-padding: 10;
+}
+
+/* Scrollbar styling inside TextArea */
+.text-area .scroll-bar:vertical,
+.text-area .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+
+.text-area .thumb {
+    -fx-background-color: #cfd2d6;
+    -fx-background-radius: 4;
+}

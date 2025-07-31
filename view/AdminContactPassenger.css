@@ -1,0 +1,41 @@
+.welcome-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #006064;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #004d40;
+}
+
+.input-field {
+    -fx-background-color: white;
+    -fx-border-color: #0097a7;
+    -fx-border-radius: 4;
+    -fx-padding: 5;
+    -fx-font-size: 14px;
+}
+
+.text-area {
+    -fx-background-color: white;
+    -fx-border-color: #0097a7;
+    -fx-border-radius: 4;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+}
+
+.submit-button {
+    -fx-background-color: #00796b;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+}
+
+.back-button {
+    -fx-background-color: #c62828;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+}

@@ -1,0 +1,53 @@
+.root-pane {
+    -fx-background-color: linear-gradient(to right, #6dd5fa, #ffffff);
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #003366;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #003366;
+}
+
+.text-field {
+    -fx-pref-height: 35px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #b3cde0;
+    -fx-border-width: 1;
+    -fx-padding: 4 8 4 8;
+    -fx-background-color: #e6f0ff;
+}
+
+.btn-back {
+    -fx-background-color: #ff6b6b;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 35px;
+    -fx-cursor: hand;
+}
+
+.btn-reset {
+    -fx-background-color: #38b000;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 35px;
+    -fx-cursor: hand;
+}
+
+.btn-back:hover {
+    -fx-background-color: #ff4d4d;
+}
+
+.btn-reset:hover {
+    -fx-background-color: #2d8700;
+}

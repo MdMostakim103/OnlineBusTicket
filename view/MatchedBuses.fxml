@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import java.net.URL?>
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MatchedBuses">
+    <stylesheets>
+        <URL value="@MatchedBuses.css" />
+    </stylesheets>
+
+    <VBox spacing="10" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10">
+        <HBox spacing="20" alignment="CENTER">
+            <Label fx:id="routeLabel" styleClass="route-label"/>
+            <Label fx:id="dateLabel" styleClass="date-label"/>
+            <Button text="Back" onAction="#handleBack" styleClass="back-button"/>
+        </HBox>
+
+        <TableView fx:id="busesTable">
+            <columns>
+                <TableColumn text="Bus ID" prefWidth="80" fx:id="busIdCol"/>
+                <TableColumn text="Bus Name" prefWidth="150" fx:id="busNameCol"/>
+                <TableColumn text="Departure Time" prefWidth="120" fx:id="departureTimeCol"/>
+                <TableColumn text="Available Seats" prefWidth="100" fx:id="seatsCol"/>
+                <TableColumn text="Fare (BDT)" prefWidth="100" fx:id="fareCol"/>
+                <TableColumn text="Action" prefWidth="100" fx:id="actionCol"/>
+            </columns>
+        </TableView>
+    </VBox>
+</AnchorPane>

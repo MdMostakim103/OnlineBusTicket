@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PassengerLocationSelection">
+    <children>
+        <Label fx:id="setDepartureLabel" layoutX="200.0" layoutY="183.0" text="Select Departure Location :" />
+        <Label fx:id="setDestinationLabel" layoutX="193.0" layoutY="242.0" text="Select Destination Location :" />
+        <Label fx:id="setJourneyDateLabel" layoutX="233.0" layoutY="304.0" text="Select Journey Date :" />
+        <Label fx:id="warningLabel" layoutX="306.0" layoutY="60.0" text="Travelling has never been this easy!" />
+        <ChoiceBox fx:id="fromChoiceBox" layoutX="361.0" layoutY="177.0" prefHeight="30.0" prefWidth="180.0" />
+        <ChoiceBox fx:id="toChoiceBox" layoutX="361.0" layoutY="236.0" prefHeight="30.0" prefWidth="180.0" />
+        <DatePicker fx:id="journeyDatePicker" layoutX="361.0" layoutY="298.0" prefHeight="30.0" prefWidth="180.0" />
+        <Button fx:id="backButton" layoutX="734.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToPrevScene" text="Back" />
+        <Button fx:id="searchButton" layoutX="335.0" layoutY="373.0" mnemonicParsing="false" onAction="#Search" text="Search" />
+    </children>
+</AnchorPane>

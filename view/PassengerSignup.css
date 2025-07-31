@@ -1,0 +1,69 @@
+.root {
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #A1C4FD, #C2E9FB);
+}
+
+.header-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4A4A4A;
+    -fx-effect: dropshadow(gaussian, rgba(255,255,255,0.5), 0, 0, 0, 1);
+}
+
+.field-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5D5D5D;
+}
+
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: #D3D3D3;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-padding: 12px;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 3, 0, 0, 1);
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #A1C4FD;
+    -fx-effect: dropshadow(gaussian, rgba(161,196,253,0.3), 5, 0, 0, 2);
+}
+
+.signup-button {
+    -fx-background-color: #FF6B95;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 25px;
+    -fx-padding: 12px 0;
+    -fx-min-width: 200px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+.signup-button:hover {
+    -fx-background-color: #FF3D7F;
+}
+
+.link-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #6A5ACD;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-underline: true;
+}
+
+.link-button:hover {
+    -fx-text-fill: #9370DB;
+}
+
+.error-label {
+    -fx-text-fill: #FF0000;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-background-color: #FFEBEE;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+}

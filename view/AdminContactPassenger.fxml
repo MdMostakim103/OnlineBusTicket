@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0"
+            xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.AdminContactPassenger"
+            stylesheets="@admin_contact_passenger.css"
+            style="-fx-background-color: linear-gradient(to bottom right, #e0f7fa, #80deea);">
+
+    <children>
+
+        <!-- Welcome Label -->
+        <Label layoutX="280.0" layoutY="20.0" text="Welcome Admin"
+               styleClass="welcome-label"/>
+
+        <!-- Back Button -->
+        <Button fx:id="backButton" layoutX="720.0" layoutY="20.0"
+                text="Back" onAction="#backToPrevScene"
+                styleClass="back-button"/>
+
+        <!-- Email Label -->
+        <Label fx:id="passengerLabel" layoutX="60.0" layoutY="80.0"
+               text="Passenger Email :" styleClass="label"/>
+
+        <!-- Email TextField -->
+        <TextField fx:id="passengerEmailTextField" layoutX="200.0" layoutY="76.0"
+                   prefWidth="300.0" styleClass="input-field"/>
+
+        <!-- Message TextArea -->
+        <TextArea fx:id="reportTextField" layoutX="60.0" layoutY="130.0"
+                  prefHeight="250.0" prefWidth="680.0"
+                  promptText="Write your message here..."
+                  styleClass="text-area"/>
+
+        <!-- Submit Button -->
+        <Button fx:id="submitButton" layoutX="360.0" layoutY="400.0"
+                prefWidth="80.0" text="Send" onAction="#submitReport"
+                styleClass="submit-button"/>
+
+    </children>
+</AnchorPane>

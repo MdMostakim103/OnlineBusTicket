@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.AdminHomePage"
+            prefHeight="400.0" prefWidth="600.0"
+            styleClass="root-pane">
+
+    <VBox spacing="20.0" AnchorPane.topAnchor="20" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20">
+
+        <!-- Welcome Text -->
+        <Label text="Welcome, Admin!" styleClass="welcome-label" />
+
+        <!-- Top Bar -->
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <Label fx:id="adminNameLabel" text="Admin: "
+                   styleClass="admin-name-label" />
+            <Region HBox.hgrow="ALWAYS" />
+            <Button fx:id="notificationButton" text="Notifications" onAction="#handleNotifications"
+                    styleClass="btn-notification" />
+            <Button fx:id="logoutButton" text="Logout" onAction="#handleLogout"
+                    styleClass="btn-logout" />
+        </HBox>
+
+        <!-- Spacer -->
+        <Separator />
+
+        <!-- Contact Buttons -->
+        <VBox spacing="15" alignment="CENTER">
+            <Button fx:id="contactBusOwnerButton" text="Contact Bus Owner" prefWidth="200"
+                    onAction="#handleContactBusOwner"
+                    styleClass="btn-bus-owner" />
+            <Button fx:id="contactPassengerButton" text="Contact Passenger" prefWidth="200"
+                    onAction="#handleContactPassenger"
+                    styleClass="btn-passenger" />
+        </VBox>
+    </VBox>
+</AnchorPane>

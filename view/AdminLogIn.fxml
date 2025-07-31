@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.AdminLogIn"
+            prefHeight="600.0" prefWidth="800.0"
+            styleClass="root-pane">
+
+    <VBox alignment="CENTER" spacing="20" layoutX="200" layoutY="130" prefWidth="400">
+        <Label text="Welcome, Admin" styleClass="welcome-label"/>
+        <Label text="Admin Login" styleClass="title-label"/>
+
+        <TextField fx:id="usernameField" promptText="Username" maxWidth="300" styleClass="input-field"/>
+        <PasswordField fx:id="passwordField" promptText="Password" maxWidth="300" styleClass="input-field"/>
+
+        <Button fx:id="loginButton" text="Login" prefWidth="300" onAction="#handleLogin" styleClass="main-button"/>
+        <Button fx:id="backButton" text="Back" prefWidth="300" onAction="#handleBack" styleClass="main-button"/>
+
+        <Label text="Forgot Password?" textFill="blue" underline="true" onMouseClicked="#forgotPass"
+               styleClass="forgot-label"/>
+
+    </VBox>
+
+</AnchorPane>

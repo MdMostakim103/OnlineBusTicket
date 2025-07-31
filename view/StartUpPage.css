@@ -1,0 +1,40 @@
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom right, #2980b9, #6dd5fa);
+}
+
+#welcomeLabel {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-wrap-text: true;
+    -fx-line-spacing: 20px;
+    -fx-pref-height: 140px;
+    -fx-padding: 0 20 0 20;
+}
+
+.main-button {
+    -fx-background-color: linear-gradient(to right, #3498db, #2980b9);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 40px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 6, 0.3, 0, 3);
+    -fx-transition: all 0.3s ease;
+}
+
+.main-button:hover {
+    -fx-background-color: linear-gradient(to right, #1f4788, #2980b9);
+    -fx-text-fill: #ffeb3b;
+}
+
+#startUpImage {
+    -fx-opacity: 0.1;
+    -fx-fit-width: 800;
+    -fx-fit-height: 600;
+}

@@ -1,0 +1,63 @@
+.root {
+    -fx-background-color: #f5f7fa;
+}
+
+.title-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 0 0 20px 0;
+}
+
+.text-field, .password-field {
+    -fx-pref-height: 35px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-border-color: #ced4da;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #80bdff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,123,255,0.25), 5, 0, 0, 0);
+}
+
+.error-label {
+    -fx-text-fill: #dc3545;
+    -fx-font-size: 12px;
+    -fx-padding: 5px 0 0 0;
+}
+
+.form-error-label {
+    -fx-text-fill: #dc3545;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0 0 0;
+}
+
+.button {
+    -fx-pref-width: 120px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.back-button {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+}
+
+.back-button:hover {
+    -fx-background-color: #5a6268;
+}
+
+.signup-button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+}
+
+.signup-button:hover {
+    -fx-background-color: #218838;
+}

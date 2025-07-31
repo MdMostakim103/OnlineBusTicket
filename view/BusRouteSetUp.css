@@ -1,0 +1,73 @@
+.root {
+    -fx-background-color: #f5f7fa;
+}
+
+.title-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 0 0 20px 0;
+}
+
+.text-field, .combo-box {
+    -fx-pref-height: 35px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-border-color: #ced4da;
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #80bdff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,123,255,0.25), 5, 0, 0, 0);
+}
+
+.button {
+    -fx-pref-height: 40px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.back-button {
+    -fx-background-color: #6c757d;
+    -fx-text-fill: white;
+}
+
+.back-button:hover {
+    -fx-background-color: #5a6268;
+}
+
+.save-button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-pref-width: 150px;
+}
+
+.save-button:hover {
+    -fx-background-color: #218838;
+}
+
+#addStopButton {
+    -fx-background-color: #17a2b8;
+    -fx-text-fill: white;
+}
+
+#addStopButton:hover {
+    -fx-background-color: #138496;
+}
+
+.status-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 0 0 0;
+}
+
+.error {
+    -fx-text-fill: #dc3545;
+}
+
+.success {
+    -fx-text-fill: #28a745;
+}

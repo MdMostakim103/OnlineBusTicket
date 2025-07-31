@@ -1,0 +1,18 @@
+.seat {
+    -fx-background-radius: 8;
+    -fx-font-weight: bold;
+}
+
+.available {
+    -fx-background-color: #6abe6e;
+    -fx-text-fill: white;
+}
+
+.unavailable {
+    -fx-background-color: #d9534f;
+    -fx-text-fill: white;
+}
+
+.selected {
+    -fx-background-color: #337ab7;
+}

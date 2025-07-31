@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+
+<?import java.net.URL?>
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.BusOwnerSignUp"
+            prefHeight="600.0" prefWidth="800.0"
+            styleClass="root">
+
+    <stylesheets>
+        <URL value="@BusOwnerSignUp.css" />
+    </stylesheets>
+
+    <VBox alignment="CENTER" spacing="20" AnchorPane.topAnchor="50" AnchorPane.bottomAnchor="50" AnchorPane.leftAnchor="150" AnchorPane.rightAnchor="150">
+        <Label text="Bus Owner Sign Up" styleClass="title-label"/>
+
+        <GridPane hgap="10" vgap="10">
+            <columnConstraints>
+                <ColumnConstraints prefWidth="150" halignment="RIGHT"/>
+                <ColumnConstraints prefWidth="250"/>
+            </columnConstraints>
+
+            <!-- Bus ID Field -->
+            <Label text="Bus ID:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="busIdField" promptText="Enter your bus ID" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+            <Label fx:id="busIdError" styleClass="error-label" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+            <!-- Email Field -->
+            <Label text="Email:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <TextField fx:id="emailField" promptText="Enter your email" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            <Label fx:id="emailError" styleClass="error-label" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+            <!-- Name Field -->
+            <Label text="Name:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+            <TextField fx:id="nameField" promptText="Enter your name" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+            <Label fx:id="nameError" styleClass="error-label" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+            <!-- Password Field -->
+            <Label text="Password:" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+            <PasswordField fx:id="passwordField" promptText="Enter password" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+            <Label fx:id="passwordError" styleClass="error-label" GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+
+            <!-- Confirm Password Field -->
+            <Label text="Confirm Password:" GridPane.rowIndex="8" GridPane.columnIndex="0"/>
+            <PasswordField fx:id="confirmPasswordField" promptText="Confirm password" GridPane.rowIndex="8" GridPane.columnIndex="1"/>
+            <Label fx:id="confirmPasswordError" styleClass="error-label" GridPane.rowIndex="9" GridPane.columnIndex="1"/>
+        </GridPane>
+
+        <HBox spacing="20" alignment="CENTER">
+            <Button fx:id="backButton" text="Back" onAction="#handleBack" styleClass="back-button"/>
+            <Button fx:id="signUpButton" text="Sign Up" onAction="#handleSignUp" styleClass="signup-button"/>
+        </HBox>
+
+        <Label fx:id="formError" styleClass="form-error-label"/>
+    </VBox>
+</AnchorPane>

@@ -1,0 +1,62 @@
+/* PassengerLogIn.css */
+.parent {
+    -fx-background-color: linear-gradient(to right, #1d2b64, #f8cdda);
+}
+
+.clickable-label {
+    -fx-text-fill: #3498db;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-underline: true;
+}
+
+.clickable-label:hover {
+    -fx-text-fill: #2980b9;
+}
+
+#emailTextfield, #passwordTextfield, #usernameTextfield {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+}
+
+#emailTextfield:focused, #passwordTextfield:focused, #usernameTextfield:focused {
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(three-pass-box, rgba(52,152,219,0.3), 5, 0, 0, 0);
+}
+
+#loginButton {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 25;
+    -fx-padding: 10 25;
+    -fx-cursor: hand;
+}
+
+#loginButton:hover {
+    -fx-background-color: #27ae60;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 1);
+}
+
+#backButton {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 25;
+    -fx-padding: 5 15;
+    -fx-cursor: hand;
+}
+
+#backButton:hover {
+    -fx-background-color: #c0392b;
+}
+
+#invalidLabel {
+    -fx-text-fill: #e74c3c;
+    -fx-font-weight: bold;
+}

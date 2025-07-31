@@ -1,0 +1,71 @@
+.root {
+    -fx-background-color: #f5f5f5;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+/* TextArea styling */
+.text-area {
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+.text-area:focused {
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(three-pass-box, rgba(52, 152, 219, 0.3), 5, 0, 0, 0);
+}
+
+/* Button styling */
+.button {
+    -fx-background-radius: 5px;
+    -fx-padding: 8px 16px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 2, 0, 0, 1);
+}
+
+/* Back button specific styling */
+#backButton {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+}
+
+#backButton:hover {
+    -fx-background-color: #c0392b;
+}
+
+/* Submit button specific styling */
+#submitButton {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+}
+
+#submitButton:hover {
+    -fx-background-color: #27ae60;
+}
+
+/* Contact admin button specific styling */
+#contactAcminButton {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+#contactAcminButton:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* Error state for text area */
+.text-area.error {
+    -fx-border-color: #e74c3c;
+    -fx-effect: dropshadow(three-pass-box, rgba(231, 76, 60, 0.3), 5, 0, 0, 0);
+}

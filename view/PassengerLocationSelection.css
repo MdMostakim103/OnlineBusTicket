@@ -1,0 +1,120 @@
+
+.root {
+    -fx-background-color: #f8f9fa;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-padding: 20px;
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #343a40;
+}
+
+/* Special styling for the main warning/message label */
+#warningLabel {
+    -fx-font-size: 24px;
+    -fx-text-fill: #007bff;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-padding: 0 0 20px 0;
+}
+
+/* ChoiceBox styling */
+.choice-box {
+    -fx-background-color: white;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+.choice-box:hover {
+    -fx-border-color: #80bdff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,123,255,0.25), 5, 0, 0, 0);
+}
+
+.choice-box .context-menu {
+    -fx-background-color: white;
+    -fx-border-color: #ced4da;
+    -fx-pref-width: 180px; /* Match the width of the ChoiceBox */
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: #007bff;
+}
+
+.choice-box .menu-item:focused .label {
+    -fx-text-fill: white;
+}
+
+/* DatePicker styling */
+.date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-font-size: 14px;
+}
+
+.date-picker:hover {
+    -fx-border-color: #80bdff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,123,255,0.25), 5, 0, 0, 0);
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #007bff;
+    -fx-background-radius: 0 3px 3px 0;
+}
+
+.date-picker .arrow-button:hover {
+    -fx-background-color: #0069d9;
+}
+
+.date-picker .text-field {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+/* Button styling */
+.button {
+    -fx-background-radius: 4px;
+    -fx-padding: 8px 16px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 2, 0, 0, 1);
+    -fx-text-fill: white;
+    -fx-background-insets: 0;
+}
+
+/* Back button specific styling */
+#backButton {
+    -fx-background-color: #6c757d;
+}
+
+#backButton:hover {
+    -fx-background-color: #5a6268;
+}
+
+/* Search button specific styling */
+#searchButton {
+    -fx-background-color: #28a745;
+    -fx-pref-width: 120px;
+}
+
+#searchButton:hover {
+    -fx-background-color: #218838;
+}
+
+/* Error state styling */
+.error {
+    -fx-text-fill: #dc3545 !important;
+}
+
+/* Success state styling */
+.success {
+    -fx-text-fill: #28a745 !important;
+}

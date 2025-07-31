@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminNotification">
+
+    <VBox spacing="20.0" AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20" AnchorPane.topAnchor="20">
+        <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Notifications" />
+
+        <TableView fx:id="notificationTable" VBox.vgrow="ALWAYS">
+            <columns>
+                <TableColumn fx:id="whoSentColumn" prefWidth="200" text="From" />
+                <TableColumn fx:id="whatSentColumn" prefWidth="395" text="Message" />
+                <TableColumn fx:id="whenSentColumn" prefWidth="160" text="Time" />
+            </columns>
+        </TableView>
+
+        <!-- Back Button -->
+        <Button fx:id="backButton" alignment="CENTER" onAction="#handleBack" prefWidth="100" style="-fx-font-size: 14px;" text="Back" />
+    </VBox>
+</AnchorPane>
