@@ -1,0 +1,11 @@
+sumon@gmail.com,Bogra-Gazipur,10-11-14-15,1800.0,2025-07-29
+mdmostakim@gmail.com,Bogra-Dhaka,19-20-23-24,2600.0,2025-07-29
+emon@gmail.com,Bogra-Sirajganj,17-21-6,750.0,2025-07-29
+emon@gmail.com,Bogra-Dhaka,22-26,1300.0,2025-07-29
+emon@gmail.com,Bogra-Tangail,4-8,700.0,2025-07-29
+sumon@gmail.com,Bogra-Gazipur,1-2,900.0,2025-07-29
+emon@gmail.com,Bogra-Gazipur,1-2,900.0,2025-07-29
+emon@gmail.com,Bogra-Gazipur,3-7,900.0,2025-07-29
+emon@gmail.com,Bogra-Gazipur,13,450.0,2025-07-29
+sumon@gmail.com,Bogra-Dhaka,35-5-9-31,2600.0,2025-07-29
+sumon@gmail.com,Rajshahi-Bogra,3-4,700.0,2025-07-29

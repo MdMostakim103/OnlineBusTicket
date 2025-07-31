@@ -1,0 +1,8 @@
+12mdmostakim12@gmail.com,Chandpur-Barguna,3-4-5,3600,2025-07-28
+ami_sumon@gmail.com,Chandpur-Barguna,6-7,2800,2025-07-28
+ami@gmail.com,Chandpur-Barguna,18-22-26,1800.0,2025-07-28
+ami@gmail.com,Chandpur-Barguna,16-21-15,1800.0,2025-07-28
+ami@gmail.com,Chandpur-Barguna,32-31,1200.0,2025-07-28
+ami@gmail.com,Chandpur-Barguna,33-34,1200.0,2025-07-28
+ami@gmail.com,Chandpur-Barguna,25-29,1200.0,2025-07-28
+mostakim@gmail.com,Chandpur-Barguna,33-34-25-29,2400.0,2025-07-28
